@@ -1,0 +1,25 @@
+# Copy to local.properties (git-ignored). Android Studio adds sdk.dir automatically.
+# sdk.dir=/Users/you/Library/Android/sdk
+
+# --- Backend (your Cloudflare Worker, NOT CricketData directly) ---
+api.baseUrl=https://cric-api.YOUR-SUBDOMAIN.workers.dev/
+api.appKey=paste-the-APP_KEY-you-set-on-the-worker
+
+# --- App identity (change when you pick the name) ---
+app.id=com.adrinovatech.floodlight
+app.versionCode=1
+app.versionName=1.0.0
+app.privacyUrl=https://yourdomain.com/privacy
+app.supportEmail=you@yourdomain.com
+
+# --- AdMob (release only; debug always uses Google test IDs) ---
+admob.appId=ca-app-pub-XXXXXXXXXXXXXXXX~YYYYYYYYYY
+admob.banner=ca-app-pub-XXXXXXXXXXXXXXXX/1111111111
+admob.inline=ca-app-pub-XXXXXXXXXXXXXXXX/2222222222
+admob.interstitial=ca-app-pub-XXXXXXXXXXXXXXXX/3333333333
+
+# --- Upload key for Play App Signing ---
+signing.storeFile=/absolute/path/to/upload-keystore.jks
+signing.storePassword=
+signing.keyAlias=upload
+signing.keyPassword=
