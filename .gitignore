@@ -1,15 +1,22 @@
 *.iml
-.gradle
+.gradle/
+.kotlin/
 /local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+.idea/
 .DS_Store
-/build
+build/
 /captures
 .externalNativeBuild
 .cxx
-local.properties
+*.jks
+*.keystore
+keystore.properties
+
+# Worker
+backend/worker/node_modules/
+backend/worker/.wrangler/
+backend/worker/.dev.vars
+
+# Anywhere in the repo
+node_modules/
+.dev.vars
